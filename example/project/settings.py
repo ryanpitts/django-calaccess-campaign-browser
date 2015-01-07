@@ -43,9 +43,9 @@ MIDDLEWARE_CLASSES = (
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'campaign_browser',
+        'NAME': 'calaccess',
         'USER': 'root',
-        'PASSWORD': 'mysql',
+        'PASSWORD': 'password',
         'HOST': '',
         'PORT': '3306',
         'OPTIONS': {
